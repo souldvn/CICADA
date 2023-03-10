@@ -1,0 +1,362 @@
+.container {
+  max-width: 1210px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.header__logo {
+  margin-right: 577px;
+}
+.header__burger {
+  right: 0;
+}
+.button {
+  background: #fe9d43;
+  border-radius: 20px;
+  padding: 16px 24px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px solid #fe9d43;
+  transition: 0.6s;
+}
+.header__tel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 145%;
+  color: #3f70ef;
+}
+
+.button:hover {
+  background: none;
+  border-radius: 20px;
+  padding: 16px 24px;
+  color: #fe9d43;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px solid #fe9d43;
+  scale: 1.02;
+}
+
+/* ======================MAIN================================== */
+.main__page {
+  margin-top: 131px;
+}
+.container {
+}
+.main__page--wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.main__page--content {
+  padding-left: 100px;
+  position: relative;
+}
+.main__page--content::before {
+  position: absolute;
+  content: "";
+  width: 1180px;
+  height: 495px;
+  right: 0;
+  left: 0;
+  top: -115px;
+  background: url(images/line1block.jpg);
+  z-index: -1;
+}
+.main__content--title {
+  width: 477px;
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  color: #3f70ef;
+  margin-bottom: 30px;
+  position: relative;
+}
+.main__content--title::after {
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 84px;
+  bottom: -5%;
+  right: 38%;
+  background: url(images/strokemain.svg);
+}
+.main__content--subtitle {
+  max-width: 442px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+}
+.main__page--butoon {
+  margin-top: 30px;
+  max-width: 192px;
+}
+.button {
+}
+.main__page--image {
+  display: flex;
+  flex-direction: column;
+}
+.main__span {
+  text-align: right;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+  color: #b7b6b6;
+}
+.main__before-figma {
+  position: absolute;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 145%;
+  color: #454545;
+  top: 236px;
+  left: 53.6%;
+}
+.main__after-website {
+  position: absolute;
+  top: 290px;
+  left: 57.7%;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 145%;
+  color: #ffffff;
+}
+/* =========================STUDYING========================================== */
+.studying {
+  margin-top: 160px;
+}
+.container {
+}
+.studying__title {
+  margin-bottom: 50px;
+  position: relative;
+}
+.studying__title::after {
+  position: absolute;
+  content: "";
+  width: 934px;
+  height: 267px;
+  bottom: -42px;
+  left: -9px;
+  background: url(images/2titledecor.svg);
+}
+.title {
+  font-family: "Roboto Slab";
+  color: #3f70ef;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+}
+.studying__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.studying__wrappper-left {
+  margin-right: 30px;
+}
+.studying__info {
+  display: flex;
+  margin-bottom: 50px;
+}
+.studying__info:last-child {
+  margin-bottom: 0;
+}
+.studying__info-cart {
+  background: #ffffff;
+  border: 1px solid #efefef;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 20px;
+}
+.studying__info-cart--text {
+  max-width: 281px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #efefef;
+}
+
+.studying__info-icons {
+  margin-top: 15px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.studying__info-icons--reaction {
+  display: flex;
+  gap: 14px;
+}
+.studying__info-icons--action {
+}
+.studying__wrappper-right {
+  margin-right: 96px;
+}
+.studying__info-cart--last {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  padding: 0;
+}
+.studying__info--last {
+  margin-top: 76px;
+}
+.studying__info-icons--actionlast {
+  align-items: center;
+  margin-bottom: 21px;
+}
+.studying__info-cart--text-last {
+  color: #2e2b2b;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  margin-left: 20px;
+  position: relative;
+}
+.studying__info-icons--actionlast {
+  padding-right: 20px;
+}
+
+.studying__info-cart--text-last::placeholder {
+  position: absolute;
+  padding-left: 0px;
+  color: #b7b6b6;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+}
+
+/* ======================SURFACE====================================== */
+.surface {
+    margin-top: 160px;
+}
+.container {
+}
+.surface__title {
+    margin-bottom: 50px;
+}
+.title {
+}
+.surface__subtitle {
+    margin-bottom: 30px;
+    color: #23CAFF;
+    font-weight: 700;
+font-size: 30px;
+line-height: 40px;
+}
+.surface__wrapper span {
+    color: #23CAFF;
+    font-weight: 400;
+font-size: 18px;
+line-height: 145%;
+}
+.surface__wrapper-top {
+    display: flex;
+    justify-content: space-between;
+}
+.surface__wrapper-card--one {
+}
+.card__image {
+    margin-bottom: 30px;
+}
+.frame1 {
+    background:url(images/frame1.png);
+    width: 402px;
+height: 134px;
+position: absolute;
+z-index: 4;
+
+}
+.frame2 {
+    background:url(images/frame2.png);
+    width: 401px;
+height: 134px;
+position: absolute;
+z-index: 4;
+
+}
+.frame__text{
+    margin-top: 23px;
+}
+.frame1__text {
+    max-width: 352px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 145%;
+margin-left: 19px;
+
+}
+.frame2__text {
+    max-width: 357px;
+    margin-left: 15px;
+}
+.frame__size {
+    display: flex;
+    margin: 38px auto;
+    text-align: center;
+background: #23CAFF;
+width: 66px;
+height: 30px;
+justify-content: center;
+padding: 5px;
+border-radius: 10px;
+color: #FFFFFF;
+transition: all 0.3s;
+}
+.frame__size:hover {
+scale: 1.1;
+
+}
+
+.surface__frame{
+    margin-top: 5px;
+}
+.surface__wrapper-card--two {
+    margin-right: 105px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 145%;
+}
+.frame2{
+
+}
+.surface__wrapper-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.frame3{
+    display: flex;
+    background:url(images/frame3.png) 0 0 / 100% no-repeat;
+    width: 433px;
+    height: 131px;
+    position: absolute;
+    z-index: 4;
+}
+.frame4{
+    
+    background:url(images/frame4.png) 0 0 / 100% no-repeat;
+    width: 408px;
+    height: 160px;
+position: absolute;
+z-index: 4;
+}
